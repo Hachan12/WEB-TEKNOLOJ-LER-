@@ -1,0 +1,110 @@
+/*
+#sayfa {
+    border-style: solid;
+    border-color: yellowgreen;
+    border-width: 2px;
+    width: 100%;
+    min-height: 600px;
+    margin: auto;
+}
+header {
+    border-style: dotted;
+    border-color: blue;
+    width: 100%;
+    margin: auto;
+    height: 50px;
+    background-color: chocolate;
+}
+nav {
+    border-style: dashed;
+    border-color: red;
+    width: 100%;
+    margin: auto;
+    height:30px ;
+    background-color: green;
+}
+article {
+    border-style: solid;
+    border-color: greenyellow;
+    width:60%;
+    margin: auto;
+    min-height:400px ;
+    background-color: gray;
+    float: left;
+    position: relative;
+   
+}
+
+aside {
+    border-style: solid;
+    border-color: green;
+    width: 38%;
+    margin: auto;
+    min-height:400px ;
+    background-color:aqua;
+    float: right;
+    position: relative;
+    
+}
+
+footer {
+        border-style: solid;
+        border-color: black;
+        width: 99%;
+        height: 99px ;
+        margin: auto;
+        position: relative;
+        background-color: purple;
+        float: inline-end;
+    
+}
+*/
+ul {
+list-style-type: none;
+position: relative;
+float: none;
+margin-left: 390px;
+
+
+
+}
+li {
+    
+    border-style: solid;
+    border-color: black;
+    border-width: 5px;
+    width: 110px;
+    padding: 10px;
+    float: left;
+    margin: 5px;
+    background-color: gray;
+  
+    border-radius: 10px;
+    text-align: center;
+    box-shadow: 5px 6px #f50808;
+    box-decoration-break: unset;
+
+}
+ul li a {
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 16px;
+    color: wheat;
+    
+}
+ul li a:hover {
+      color: rgb(63, 171, 229);
+      font-size: 100%;
+    
+
+}
+ul li a:active {
+
+}
+nav {
+    margin: auto;
+    text-align: center;
+}
+#login {
+    float: right;
+}
